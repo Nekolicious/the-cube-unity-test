@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/uistyle.uss?fileID=7433441132597879392&amp;guid=7f1b55c28dc14f842adfaa6c802bf7e1&amp;type=3#uistyle" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgb(0, 0, 0); align-items: center; justify-content: center; padding-top: 80px; padding-right: 80px; padding-bottom: 80px; padding-left: 80px;">
+        <ui:VisualElement style="flex-grow: 0; margin-bottom: 40px;">
+            <ui:Label tabindex="-1" text="Select User Profile" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="font-size: 60px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="Current User: " parse-escape-sequences="true" display-tooltip-when-elided="true" name="currentProfile" class="mutedText" />
+        </ui:VisualElement>
+        <ui:ScrollView name="profileContainer" style="height: 600px;" />
+        <ui:VisualElement style="flex-grow: 0; flex-direction: row; margin-top: 20px;">
+            <ui:Button text="Cancel" parse-escape-sequences="true" display-tooltip-when-elided="true" name="cancelBtn" class="profileButton" style="margin-right: 20px;" />
+            <ui:Button text="Create New" parse-escape-sequences="true" display-tooltip-when-elided="true" name="newBtn" class="profileButton" style="margin-left: 20px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

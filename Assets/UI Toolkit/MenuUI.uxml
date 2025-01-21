@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/uistyle.uss?fileID=7433441132597879392&amp;guid=7f1b55c28dc14f842adfaa6c802bf7e1&amp;type=3#uistyle" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; background-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-basis: 30%;" />
+        <ui:VisualElement name="menuContainer" style="width: 325px; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; justify-content: center; flex-grow: 1; align-items: center; flex-basis: 40%;">
+            <ui:VisualElement style="flex-grow: 0; margin-bottom: 40px; align-items: center;">
+                <ui:Label tabindex="-1" text="a cube" parse-escape-sequences="true" display-tooltip-when-elided="true" name="titleLabel" enable-rich-text="false" style="font-size: 60px; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+                <ui:Label tabindex="-1" text="[STES25] Sabili&#10;Made for technical test." parse-escape-sequences="true" display-tooltip-when-elided="true" name="tagLabel" class="mutedText" style="-unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:Button text="New Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="newGameBtn" class="menuButton" />
+            <ui:Button text="Load Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="loadGameBtn" class="menuButton" />
+            <ui:Button text="Achievements" parse-escape-sequences="true" display-tooltip-when-elided="true" name="achvBtn" enable-rich-text="false" class="menuButton" />
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exitGameBtn" class="menuButton" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: column-reverse; flex-basis: 30%;">
+            <ui:VisualElement name="profileContainer" style="flex-grow: 0; align-items: center; padding-top: 20px; padding-bottom: 20px;">
+                <ui:Label tabindex="-1" text="Current User : ???" parse-escape-sequences="true" display-tooltip-when-elided="true" name="profileLabel" class="mutedText" />
+                <ui:Button text="Change" parse-escape-sequences="true" display-tooltip-when-elided="true" name="profileBtn" enable-rich-text="true" class="profileButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

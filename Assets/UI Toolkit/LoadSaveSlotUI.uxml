@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/uistyle.uss?fileID=7433441132597879392&amp;guid=7f1b55c28dc14f842adfaa6c802bf7e1&amp;type=3#uistyle" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Label tabindex="-1" text="Load Game" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); font-size: 60px; -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="for profile : ???" parse-escape-sequences="true" display-tooltip-when-elided="true" name="profileLabel" class="mutedText" />
+            <ui:ScrollView name="saveSlotContainer" style="height: 550px;" />
+            <ui:VisualElement name="exitContainer" style="flex-grow: 0; margin-top: 30px;">
+                <ui:Button text="Cancel" parse-escape-sequences="true" display-tooltip-when-elided="true" name="cancelBtn" style="-unity-font-style: bold; font-size: 30px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; width: 200px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

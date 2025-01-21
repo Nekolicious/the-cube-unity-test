@@ -1,0 +1,108 @@
+.menuButton {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 36px;
+    width: 400px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    -unity-font: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=374ddec7c9ae4054ab18d7c0d07791dd&type=3#NotInter-Regular");
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.profileButton {
+    font-size: 24px;
+    -unity-font-style: bold;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.mutedText {
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+}
+
+.deleteButton {
+    width: 150px;
+    background-color: rgb(136, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    -unity-font-style: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.profile {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.notification {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    -unity-font-style: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.58);
+    text-shadow: 5px 0 0 rgba(0, 0, 0, 0);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: opacity;
+    -unity-text-align: upper-center;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    flex-grow: 0;
+}
+
+.achievement-locked {
+    color: rgb(51, 51, 51);
+}
+
+.achievement-item {
+    flex-grow: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -unity-text-align: upper-center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.achievement-title {
+    font-size: 30px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    align-items: center;
+}
+
+.achievement-desc {
+    -unity-text-align: upper-center;
+    align-items: center;
+}
+
+.achievement-progress {
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    align-items: center;
+}

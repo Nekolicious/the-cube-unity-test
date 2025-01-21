@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/uistyle.uss?fileID=7433441132597879392&amp;guid=7f1b55c28dc14f842adfaa6c802bf7e1&amp;type=3#uistyle" />
+    <ui:VisualElement name="VisualElement" style="flex-direction: row; flex-grow: 1;">
+        <ui:VisualElement name="VisualElement" style="background-color: rgba(3, 1, 1, 0.59); padding-top: 60px; padding-right: 60px; padding-bottom: 60px; padding-left: 60px;">
+            <ui:VisualElement style="flex-grow: 1; align-items: center;">
+                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 64px; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-outline-width: 2px;" />
+                <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+                    <ui:Button text="Resume" parse-escape-sequences="true" display-tooltip-when-elided="true" name="resumeBtn" class="menuButton" />
+                    <ui:Button text="Save Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="saveBtn" class="menuButton" />
+                    <ui:Button text="Load Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="loadBtn" class="menuButton" />
+                    <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exitBtn" class="menuButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement />
+    </ui:VisualElement>
+</ui:UXML>

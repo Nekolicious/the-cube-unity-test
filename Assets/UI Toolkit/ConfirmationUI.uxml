@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/uistyle.uss?fileID=7433441132597879392&amp;guid=7f1b55c28dc14f842adfaa6c802bf7e1&amp;type=3#uistyle" />
+    <ui:VisualElement name="confirmationWindow" style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:VisualElement style="flex-grow: 0; width: 60%; height: 60%; background-color: rgb(0, 0, 0); justify-content: center; align-items: center;">
+            <ui:Label tabindex="-1" text="ConfirmationLabel.Text" parse-escape-sequences="true" display-tooltip-when-elided="true" name="confirmationText" style="font-size: 40px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+            <ui:VisualElement style="flex-direction: row; margin-top: 30px;">
+                <ui:Button text="No" parse-escape-sequences="true" display-tooltip-when-elided="true" name="noBtn" class="profile profileButton" style="margin-right: 20px;" />
+                <ui:Button text="Yes" parse-escape-sequences="true" display-tooltip-when-elided="true" name="yesBtn" class="profile profileButton" style="margin-left: 20px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
